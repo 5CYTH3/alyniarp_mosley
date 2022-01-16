@@ -1,2 +1,1 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<img src="https://img.gta5-mods.com/q95/images/mosley-s-auto-shop-interior-sp-fivem/763736-0_20200227223812_1.png" alt="">
