@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.svelte",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        'banner': '24rem',
+      },
+    },
   },
   plugins: [],
 }
