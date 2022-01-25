@@ -10,6 +10,3 @@
         <p>Notre site web permet une relation vendeur-client pour faciliter le commerce de voitures déjà customisée.</p>
     </div>
 </Section>
-<section>
-    
-</section>
