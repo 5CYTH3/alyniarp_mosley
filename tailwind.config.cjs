@@ -9,7 +9,7 @@ module.exports = {
       },
       fontFamily: {
         'noto': ['Noto Sans'],
-        'title': ['Bebas Neues']
+        'title': ['Bebas Neue']
       },
     },
   },
