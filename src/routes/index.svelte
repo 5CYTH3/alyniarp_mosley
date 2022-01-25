@@ -1,6 +1,7 @@
 <script>
     /* import {  } from '$lib/functions/db'; */
     import Section from '$lib/components/Section.svelte';
+    import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 </script>
 
 <Section>
@@ -9,4 +10,5 @@
         <h3>La voiture de vos rêves à prix réduit</h3>
         <p>Notre site web permet une relation vendeur-client pour faciliter le commerce de voitures déjà customisée.</p>
     </div>
+    <ThemeToggle />
 </Section>
