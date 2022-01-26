@@ -11,13 +11,11 @@
 
 </script>
 
-
-<svelte:body class="{isDarkScoped ? "dark" : ""}"></svelte:body>
-<Navigator>
-    <NavigatorItem to="/Catalog">Catalogue</NavigatorItem>
-    <NavigatorItem to="/Admin">Admin</NavigatorItem>
-</Navigator>
-<main>
+<main class="{isDarkScoped ? "dark" : null}">
+    <Navigator>
+        <NavigatorItem to="/Catalog">Catalogue</NavigatorItem>
+        <NavigatorItem to="/Admin">Admin</NavigatorItem>
+    </Navigator>
     <slot></slot>
 </main>
 

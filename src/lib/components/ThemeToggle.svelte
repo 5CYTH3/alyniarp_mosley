@@ -1,15 +1,21 @@
 <script lang="ts">
     import { isDark } from "$lib/functions/stores";
-    let state: boolean = false;
+    import { fly } from "svelte/transition";
+
+    let state: boolean;
+    let list = [1];
 
     function updated() {
-        isDark.update(val => {
-            return state = !val
-        })
+        state = !state
+        isDark.set(state);
     }
 
 </script>
 
-<div on:click="{updated}" class="border-2 border-b-stone-50 bg-slate-700 w-16 h-8 rounded-full">
-    <div id="round" class="rounded-full bg-gray-50 h-6 w-6 absolute top-1 left-1"></div>
+<div on:click="{updated}" class="border-2 dark:border-stone-50 dark:bg-slate-700 bg-stone-50 border-slate-700 w-14 h-8 rounded-full cursor-pointer">
+    <div transition:fly id="round" class="rounded-full dark:bg-gray-50 bg-slate-700 h-5 w-5 relative top-1 left-1"></div>
 </div>
+
+<style>
+    
+</style>
