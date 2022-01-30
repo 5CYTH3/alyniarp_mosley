@@ -1,7 +1,7 @@
 <script>
-    /* import {  } from '$lib/functions/db'; */
     import Section from '$lib/components/Section.svelte';
     import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+    import CrossButton from '$lib/components/CrossButton.svelte';
 </script>
 
 <Section>
@@ -11,4 +11,5 @@
         <p>Notre site web permet une relation vendeur-client pour faciliter le commerce de voitures déjà customisée.</p>
     </div>
     <ThemeToggle />
+    <CrossButton />
 </Section>

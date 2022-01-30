@@ -1,10 +1,9 @@
-export {}
-/*
-let connection = null;
+import { Client, Entity, Schema, Repository } from 'redis-om';
 
-r.connect({host: 'localhost', port: 28015}, (err, conn) => {
-    if(err) throw err;
-    connection = conn;
-})
+const client = new Client();
 
-*/
+async function connect() {
+    if (!client.isOpen()) {
+        await client.open(process.env.VITE_REDIS_URL)
+    }
+}
