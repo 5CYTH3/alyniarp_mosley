@@ -13,5 +13,5 @@
     </div>
 </Section>
 <Section alt>
-    <Text>Hello World!</Text>
+    <Text></Text>
 </Section>
