@@ -12,6 +12,7 @@
         <Text>Notre site web permet une relation vendeur-client pour faciliter le commerce de voitures déjà customisée.</Text>
     </div>
 </Section>
-<Section alt>
+<Section>
+    <img src="" alt="">
     <Text></Text>
 </Section>
