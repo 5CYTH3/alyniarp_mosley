@@ -36,3 +36,8 @@
         </div>
     </div>
 </Section>
+<Section>
+    <div class="w-full flex items-center justify-center h-24">
+        <Text class="font-title" size="4xl">Où nous trouver?</Text>
+    </div>
+</Section>

@@ -16,4 +16,6 @@
     export { className as class };
 </script>
 
-<p class="dark:text-gray-200 text-black text-{size} {className}"><slot /></p>
+<p class="dark:text-gray-200 text-black text-{size} {className} leading-none">
+    <slot />
+</p>
