@@ -1,4 +1,4 @@
-<nav class="h-20 w-full flex justify-between items-center bg-white dark:bg-gray-800">
+<nav class="h-20 w-full flex justify-between items-center bg-white dark:bg-gray-900">
     <div class="ml-4">
         <h2 class="font-title text-4xl dark:text-gray-200">The Mosley</h2>
     </div>

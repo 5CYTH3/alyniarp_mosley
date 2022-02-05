@@ -18,7 +18,7 @@
     </div>
 </Section>
 <Section class="w-full flex justify-center items-center h-80" alt>
-    <div class="w-2/3 flex items-center justify-around">
+    <div class="w-2/3 flex items-center justify-around mb-6 mt-6">
         <img
             src="https://gamesmods.net/uploads/posts/2020-02/1582973740_763736-0_20200227223637_1.png"
             alt=""

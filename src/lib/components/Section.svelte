@@ -4,7 +4,7 @@
     export { className as class };
 </script>
 
-{#if alt === true}
+{#if alt}
     <section
         id="section"
         class="h-auto w-full bg-green-200 dark:bg-gray-800 {className}"
@@ -12,7 +12,7 @@
         <slot />
     </section>
 {:else}
-    <section id="section" class="h-auto w-full dark:bg-gray-800 {className}">
+    <section id="section" class="h-auto w-full dark:bg-gray-900 {className}">
         <slot />
     </section>
 {/if}
